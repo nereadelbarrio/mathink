@@ -1455,14 +1455,14 @@ th {
 }
 
 table td.bck-td-1 {
-    color: #fff;
+    color: inherit;
     font-weight: bold;
     text-align: center;
     background-color: var(--colorppal);
 }
 
 table td.bck-td-2 {
-    color: #fff;
+    color: inherit;
     font-weight: bold;
     text-align: center;
     background-color: #C6EAFA;
