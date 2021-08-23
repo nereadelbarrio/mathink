@@ -105,7 +105,7 @@ mcgraw > cornelsen */
     padding-bottom: 90px;
     position: relative;
     border-top: 40px solid transparent;
-    border-image: linear-gradient(to right, #96D298, #fff) 1;
+    border-image: linear-gradient(to right, #986265, #fff) 1;
 }
 
 /**-----------------------------------------------------------------------------------**/
@@ -1669,6 +1669,14 @@ table td.bck-td-4 {
     text-align: center;
     background-color: #5D040A;
 }
+
+table td.bck-td-5 {
+    font-weight: bold;
+    text-align: center;
+    background-color: #E7D9D4;
+}
+
+
 
 
 /*MEDIA QUERIES */
