@@ -705,7 +705,7 @@ body.is_app .mathink-navbar.ocultar {
 
 /*---*/
 /* Content: Dropdown box */
-.body_clase #actividad .coursetag_nivelk1 .bck-dropdown {
+.body_clase #actividad .bck-dropdown {
     width: 100%;
 	-moz-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
     -webkit-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
@@ -713,7 +713,7 @@ body.is_app .mathink-navbar.ocultar {
 	margin: 15px 0;
   }
   
-  .body_clase #actividad .coursetag_nivelk1 .bck-dropdown .bck-dropdown-titulo {
+  .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
     color: var(--colorppal);
     cursor: pointer;
     font-size: 2.0rem;
@@ -722,121 +722,33 @@ body.is_app .mathink-navbar.ocultar {
     padding-right: 2.7rem;
   }
   
-  .body_clase #actividad .coursetag_nivelk1 .bck-dropdown .bck-dropdown-button {
+  .body_clase #actividad .bck-dropdown .bck-dropdown-button {
     padding: 10px;
     border: 0;
     position: relative;
     cursor: pointer;
   }
   
-  .body_clase #actividad .coursetag_nivelk1 .bck-dropdown .bck-dropdown-icon {
+  .body_clase #actividad .bck-dropdown .bck-dropdown-icon {
     position: absolute;
     right: 1.1rem;
     color:#1A73E9;
   }
   
-  .body_clase #actividad .coursetag_nivelk1 .bck-dropdown .bck-dropdown-icon>.fa {
+  .body_clase #actividad .bck-dropdown .bck-dropdown-icon>.fa {
     color: var(--colorppal);
     border: none;
     padding: 0;
     font-size: 1.6rem;
   }
   
-  .body_clase #actividad .coursetag_nivelk1 .bck-dropdown .bck-dropdown-content {
+  .body_clase #actividad .bck-dropdown .bck-dropdown-content {
     width: 100%;
     padding: 0 10px 20px 20px;
     background-color: #E5E5E5;
   }
 
- /**/
  
- .body_clase #actividad .coursetag_nivelk2 .bck-dropdown {
-    width: 100%;
-	-moz-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
-    -webkit-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
-	box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
-	margin: 15px 0;
-  }
-  
-  .body_clase #actividad .coursetag_nivelk2 .bck-dropdown .bck-dropdown-titulo {
-    color: var(--colorppal);
-    cursor: pointer;
-    font-size: 2.0rem;
-    font-weight: bold;
-    line-height: 1.2;
-    padding-right: 2.7rem;
-  }
-  
-  .body_clase #actividad .coursetag_nivelk2 .bck-dropdown .bck-dropdown-button {
-    padding: 10px;
-    border: 0;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .body_clase #actividad .coursetag_nivelk2 .bck-dropdown .bck-dropdown-icon {
-    position: absolute;
-    right: 1.1rem;
-    color:#1A73E9;
-  }
-  
-  .body_clase #actividad .coursetag_nivelk2 .bck-dropdown .bck-dropdown-icon>.fa {
-    color: var(--colorppal);
-    border: none;
-    padding: 0;
-    font-size: 1.6rem;
-  }
-  
-  .body_clase #actividad .coursetag_nivelk2 .bck-dropdown .bck-dropdown-content {
-    width: 100%;
-    padding: 0 10px 20px 20px;
-    background-color: #E5E5E5;
-  }
-
-  /**/
-
-  .body_clase #actividad .coursetag_nivelk3 .bck-dropdown {
-    width: 100%;
-	-moz-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
-    -webkit-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
-	box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
-	margin: 15px 0;
-  }
-  
-  .body_clase #actividad .coursetag_nivelk13 .bck-dropdown .bck-dropdown-titulo {
-    color: var(--colorppal);
-    cursor: pointer;
-    font-size: 2.0rem;
-    font-weight: bold;
-    line-height: 1.2;
-    padding-right: 2.7rem;
-  }
-  
-  .body_clase #actividad .coursetag_nivelk3 .bck-dropdown .bck-dropdown-button {
-    padding: 10px;
-    border: 0;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .body_clase #actividad .coursetag_nivelk3 .bck-dropdown .bck-dropdown-icon {
-    position: absolute;
-    right: 1.1rem;
-    color:#1A73E9;
-  }
-  
-  .body_clase #actividad .coursetag_nivelk3 .bck-dropdown .bck-dropdown-icon>.fa {
-    color: var(--colorppal);
-    border: none;
-    padding: 0;
-    font-size: 1.6rem;
-  }
-  
-  .body_clase #actividad .coursetag_nivelk3 .bck-dropdown .bck-dropdown-content {
-    width: 100%;
-    padding: 0 10px 20px 20px;
-    background-color: #E5E5E5;
-  } 
 /*---*/
 /*Flipbox*/
 body:not(.edit) .bck-flipbox {
