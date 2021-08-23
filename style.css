@@ -1461,6 +1461,13 @@ table td.bck-td-1 {
     background-color: var(--colorppal);
 }
 
+table td.bck-td-2 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background-color: #C6EAFA;
+}
+
 
 /*MEDIA QUERIES */
 @media screen and (max-width: 768px) {
