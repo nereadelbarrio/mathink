@@ -28,6 +28,8 @@
             	{ name: 'Lista Desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1'}}, 
             	{ name: 'Lista Desordenada 2',element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2'}},
 
+            	{ name: 'Celda 1', element: 'td', attributes: { 'class': 'bck-td-1'} },
+
             	{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1'}},
             	{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2'}}, 
             	{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3'}}
