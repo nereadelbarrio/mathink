@@ -19,6 +19,7 @@
 
             	{ name: 'Énfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis'}},
             	{ name: 'Énfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis-2'}},
+            	{ name: 'Énfasis 3', element: 'span', attributes: { 'class': 'bck-enfasis-3'}},
 
             	{ name: 'Lista Ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1'}},
              	{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2'}},
@@ -26,10 +27,13 @@
             	{ name: 'Lista Desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1'}}, 
 
             	{ name: 'Celda 1', element: 'td', attributes: { 'class': 'bck-td-1'} },
-		    { name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td-2'} },
+            	{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td-2'} },
+            	{ name: 'Celda 3', element: 'td', attributes: { 'class': 'bck-td-3'} },
+            	{ name: 'Celda 4', element: 'td', attributes: { 'class': 'bck-td-4'} },
 
             	{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1'}}
-            	]
+
+            ]
         },
         slidesTitle: {},
         subunits: [],
