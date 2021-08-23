@@ -1440,12 +1440,12 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 /**TABLA**/
 table,
 .bck-table {
-	border: 1px solid #ccc;
+	border: 1px solid #000;
 }
 
 table td,
 .bck-table td {
-	border-color: #ccc;
+	border-color: #000;
 }
 
 td,
@@ -1453,6 +1453,10 @@ th {
 	padding-left: 10px;
 }
 
+table td.bck-td-1 {
+    color: #000;
+    background-color: var(--colorppal);
+}
 
 
 /*MEDIA QUERIES */
