@@ -63,8 +63,8 @@ mcgraw > cornelsen */
     padding: 0px;
     padding-bottom: 90px;
     position: relative;
-    border-top: 4px solid transparent;
-    border-image: linear-gradient(to bottom, #5fcaf3, #fff) 1;
+    border-top: 40px solid transparent;
+    border-image: linear-gradient(to right, #5fcaf3, #fff) 1;
 }
 
 /**-----------------------------------------------------------------------------------**/
@@ -1466,5 +1466,3 @@ and (max-width : 480px) {
     width: 70%;
 }	
 }
-
-
