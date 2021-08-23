@@ -440,17 +440,18 @@ body.is_app .mathink-navbar.ocultar {
 	padding-left: 20px;
 }
 
-/* TÍTULOS
-/* .bck-title {
+/* TÍTULOS */
+.bck-title {
 	border-bottom: 0;
     font-weight: inherit;
     font-size: inherit;
     color: #000;
 } 
+
 /*-- Título 1 --*/
-/*.bck-title-1:before {
+.bck-title-1:before {
 	display: none;
-}*/
+}
 .coursetag_nivelK1 .bck-title-1 {
 	color: #000;
     font-size: 2.2rem;
