@@ -97,6 +97,17 @@ mcgraw > cornelsen */
     border-image: linear-gradient(to right, #96D298, #fff) 1;
 }
 
+.coursetag_nivelk3 #actividad .carousel-inner .item-container {
+    background-image: none;
+    max-width: 1080px;
+    margin: 20px auto 30px;
+    padding: 0px;
+    padding-bottom: 90px;
+    position: relative;
+    border-top: 40px solid transparent;
+    border-image: linear-gradient(to right, #96D298, #fff) 1;
+}
+
 /**-----------------------------------------------------------------------------------**/
 
 b,
@@ -660,7 +671,7 @@ body.is_app .mathink-navbar.ocultar {
 .coursetag_nivelk2 .bck-box.bck-box-1 {
 	margin-top: 15px;
     background: var(--colorsecn);
-    border: 2px solid var(--colorsecn);;
+    border: 2px solid var(--colorsecn);
     border-radius: 25px;
 }
 .coursetag_nivelk2 .bck-box-1 > .bck-title {
@@ -673,44 +684,30 @@ body.is_app .mathink-navbar.ocultar {
     padding: 0;
 }
 
-/* CAJA 2 */
-.bck-box.bck-box-2 .bck-title:before {
+
+.coursetag_nivelk3 .bck-box.bck-box-1:before {
 	display: none;
 }
-.bck-box.bck-box-2 {
-    background: var(--colortrans);
-    border: 2px solid var(--colorppal);
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    text-align: inherit;
+.coursetag_nivelk3 .bck-box.bck-box-1:after {
+	display: none;
+}
+.coursetag_nivelk3 .bck-box.bck-box-1 {
+	margin-top: 15px;
+    background: var(--colorsecn);
+    border: 2px solid var(--colorsecn);
+    border-radius: 25px;
+}
+.coursetag_nivelk3 .bck-box-1 > .bck-title {
+    border-bottom: 0px solid #eee;
+    color: #000000;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+.coursetag_nivelk3 .bck-box.bck-box-1 > .bck-content {
     padding: 0;
 }
-.bck-box.bck-box-2 > .bck-title {
-    border: 0;
-    font-weight: bold;
-    font-size: 2.1rem;
-    background-color: var(--colorppal);
-    color: #FFF;
-    padding: 5px 20px;
-}
-.bck-box.bck-box-2 > .bck-content {
-    border: 0;
-    padding: 5px 20px 20px 20px;
-}
 
-/*CAJA 3 */
-.bck-box.bck-box-3 {
-    background-color: #E5E5E5;
-    width: calc(100% + 120px);
-    margin-left: -60px;
-    max-width: none;
-    padding: 15px 60px;
-}
-.bck-box-3 > .bck-title {
-    text-align: center;
-    font-weight: bold;
-}
+
 
 /*Desplegable*/
 
@@ -803,6 +800,49 @@ body.is_app .mathink-navbar.ocultar {
     background-color: #E5E5E5;
   }
  
+ /**/
+.coursetag_nivelk3 .bck-dropdown {
+    width: 100%;
+	-moz-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
+	box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
+	margin: 15px 0;
+  }
+  
+ .coursetag_nivelk3 .bck-dropdown .bck-dropdown-titulo {
+    color: var(--colorppal);
+    cursor: pointer;
+    font-size: 2.0rem;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-right: 2.7rem;
+  }
+  
+  .coursetag_nivelk3 .bck-dropdown .bck-dropdown-button {
+    padding: 10px;
+    border: 0;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .coursetag_nivelk3 .bck-dropdown .bck-dropdown-icon {
+    position: absolute;
+    right: 1.1rem;
+    color:#1A73E9;
+  }
+  
+  .coursetag_nivelk3 .bck-dropdown .bck-dropdown-icon>.fa {
+    color: var(--colorppal);
+    border: none;
+    padding: 0;
+    font-size: 1.6rem;
+  }
+  
+  .coursetag_nivelk3 .bck-dropdown .bck-dropdown-content {
+    width: 100%;
+    padding: 0 10px 20px 20px;
+    background-color: #E5E5E5;
+  }
 /*---*/
 /*Flipbox*/
 body:not(.edit) .bck-flipbox {
@@ -1002,7 +1042,6 @@ body:not(.edit) .back .bck-flipbox-title,
     color: var(--colorppal);
     font-size: 2rem;
     text-align: center;
-    color: #1A73E9;
     border-bottom: 0;
 	font-weight: bold;
     background-color: #FFF;
