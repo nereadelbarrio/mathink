@@ -56,7 +56,7 @@ mcgraw > cornelsen */
 }
 
 
-.coursetag_nivelK1 #actividad .carousel-inner .item-container {
+.coursetag_nivelk1 #actividad .carousel-inner .item-container {
     background-image: none;
     max-width: 1080px;
     margin: 20px auto 30px;
@@ -452,7 +452,7 @@ body.is_app .mathink-navbar.ocultar {
 .bck-title-1:before {
 	display: none;
 }
-.coursetag_nivelK1 .bck-title-1 {
+.coursetag_nivelk1 .bck-title-1 {
 	color: #000;
     font-size: 2.2rem;
     font-weight: bold;
@@ -492,7 +492,7 @@ body.is_app .mathink-navbar.ocultar {
 
 
 /*Énfasis */
-.coursetag_nivelK1 .bck-enfasis {
+.coursetag_nivelk1 .bck-enfasis {
     color: var(--colorppal);
     font-weight: bold;
 }
