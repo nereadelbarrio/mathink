@@ -42,7 +42,7 @@ mcgraw > cornelsen */
 }
 
 
-/**----------------------------------MIRAR COLORES_COURSETAG------------------------------------**/
+/**----------------------------------MIRAR COLORES_COURSETAG----------------------------
 .coursetag_nivelK1 {
 	--colorppal: #00AEEF;
 }
@@ -54,6 +54,7 @@ mcgraw > cornelsen */
 .coursetag_nivelK3 {
 	--colorppal: #5D040A;
 }
+--------**/
 
 
 .coursetag_nivelK1 #actividad .carousel-inner .item-container {
