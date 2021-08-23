@@ -482,7 +482,7 @@ body.is_app .mathink-navbar.ocultar {
 
 .bck-title-2 {
     color: #000;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: bold;
     line-height: 3.0rem;
     margin: 0;
@@ -539,24 +539,25 @@ body.is_app .mathink-navbar.ocultar {
 }
 
 /*Caja 1 */
-.bck-box.bck-box-1:before {
+.coursetag_nivelk1 .bck-box.bck-box-1:before {
 	display: none;
 }
-.bck-box.bck-box-1:after {
+.coursetag_nivelk1 .bck-box.bck-box-1:after {
 	display: none;
 }
-.bck-box.bck-box-1 {
-    margin-top: 15px;
-    background: #F8F8F8;
-    border: 2px solid #999999;
+.coursetag_nivelk1 .bck-box.bck-box-1 {
+	margin-top: 15px;
+    background: #C6EAFA;
+    border: 2px solid #C6EAFA;
+    border-radius: 25px;
 }
-.bck-box-1 > .bck-title {
+.coursetag_nivelk1 .bck-box-1 > .bck-title {
     border-bottom: 0px solid #eee;
     color: #000000;
     font-size: 2.1rem;
     font-weight: bold;
 }
-.bck-box.bck-box-1 > .bck-content {
+.coursetag_nivelk1 .bck-box.bck-box-1 > .bck-content {
     padding: 0;
 }
 
@@ -773,18 +774,18 @@ body:not(.edit) .back .bck-flipbox-title,
  #actividad .content .texto_curso .bck-ol-1 li:before,
   #actividad .popover-content .bck-ol-1 li:before,
    #actividad .content .workspace ul li .bck-ol-1 li:before {
-	content: counter(bck-li-counter) "";
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: normal;
-	position: relative;
-	color: #999999;
-	font-size: 2.0rem;
-	width: auto;
-	margin-top: 0px;
-	left: 0;
-	top: 0px;
-	margin-right: 10px;
-	margin-left: 0px;
+	content: counter(bck-li-counter) ")";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    position: relative;
+    color: #000;
+    font-size: 2.0rem;
+    width: auto;
+    margin-top: 0px;
+    left: 0;
+    top: 0px;
+    margin-right: 10px;
+    margin-left: 0px;
 }
 
 /*Lista ordenada 2*/
@@ -793,20 +794,42 @@ body:not(.edit) .back .bck-flipbox-title,
  #actividad .popover-content .bck-ol-2 li,
   #actividad .content .workspace ul li .bck-ol-2 li {
     counter-increment: bck-li-counter;
-    padding-left: 10px;
+    padding-left: 36px;
     position: relative;
 }
 #actividad .content .cke_contents ol.bck-ol-2 li:before,
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
  #actividad .popover-content ol.bck-ol-2 li:before,
   #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-    content: counter(bck-li-counter, lower-alpha) ")";
+	content: counter(bck-li-counter, upper-alpha) ")";
     padding-right: 0px;
     text-align: center;
-    color: #999999;
+    color: #000;
     font-weight: normal;
-    margin-right: 5px;
-    top: -2px;
+    margin-right: 10px;
+    top: 0px;
+}
+
+#actividad .content .cke_contents .bck-ol-3 li, 
+#actividad .content .texto_curso .bck-ol-3 li, 
+#actividad .popover-content .bck-ol-3 li, 
+#actividad .content .workspace ul li .bck-ol-3 li {
+    counter-increment: bck-li-counter;
+    padding-left: 36px;
+    position: relative;
+}
+
+#actividad .content .cke_contents ol.bck-ol-3 li:before, 
+#actividad .content .texto_curso ol.bck-ol-3 li:before, 
+#actividad .popover-content ol.bck-ol-3 li:before, 
+#actividad .content .workspace ul li ol.bck-ol-3 li:before {
+    content: counter(bck-li-counter, lower-roman) ")";
+    padding-right: 0px;
+    text-align: center;
+    color: #000;
+    font-weight: normal;
+    margin-right: 10px;
+    top: 0px;
 }
 
 
