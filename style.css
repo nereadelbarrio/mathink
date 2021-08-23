@@ -41,10 +41,27 @@ mcgraw > cornelsen */
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('NotoSerif.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('NotoSerif-Bold.woff') format('woff'),
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
 
 /**----------------------------------MIRAR COLORES_COURSETAG------------------------------------**/
 .coursetag_nivelk1 {
 	--colorppal: #00AEEF;
+	--colorsecn: #95DAF8;
 }
 
 .coursetag_nivelk2 {
@@ -458,7 +475,7 @@ body.is_app .mathink-navbar.ocultar {
     font-weight: bold;
     line-height: 3.0rem;
     margin: 0;
-    background-color: var(--colorppal);
+    background-color: var(--colorsecn);
     padding: 7px 0 7px 59px;
     margin-left: -60px;
 }
@@ -499,8 +516,7 @@ body.is_app .mathink-navbar.ocultar {
 
 /*Énfasis 2 */
 .bck-enfasis-2 {
-    color: var(--colorppal);
-    font-weight: bold;
+	font-family: 'Noto Serif';
 }
 
 /* ---- CAJAS ---*/
@@ -1466,3 +1482,5 @@ and (max-width : 480px) {
     width: 70%;
 }	
 }
+
+
