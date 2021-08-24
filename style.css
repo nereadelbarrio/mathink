@@ -1671,10 +1671,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     box-shadow: 0 4px 7px #1a73e95e;
 }
 #actividad .content .review .attemps span {
-    background-color: #1a73e9;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
+    background-color: #00AEEF;
+    border-radius: 0px;
     color: #fff;
     font-size: 2.0rem;
 }
@@ -1692,7 +1690,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     color: #00bdff;
     background-color: #fff;
     border: 2px solid #00bdff;;
-    border-radius: 0x;
+    border-radius: 0px;
     font-weight: 700;
 }
 .btn-next:active,
