@@ -850,12 +850,21 @@ body:not(.edit) .bck-flipbox {
 		font-size: 18px;
 }
 
-body:not(.edit) .bck-flipbox-face.front {
+body:not(.edit).coursetag_nivelk2 .bck-flipbox-face.front {
 	border: 0;
     background: white;
-    -moz-box-shadow: 0px 5px 9px rgb(0 174 239 / 13%);
-    -webkit-box-shadow: 0px 5px 9px rgb(0 174 239 / 13%);
-    box-shadow: 0px 5px 9px rgb(0 174 239 / 13%);
+    -moz-box-shadow: 0px 5px 9px rgb(89 187 93 / 12%);
+    -webkit-box-shadow: 0px 5px 9px rgb(89 187 93 / 12%);
+    box-shadow: 0px 5px 9px rgb(89 187 93 / 12%);
+    color: #000;
+}
+
+body:not(.edit).coursetag_nivelk3 .bck-flipbox-face.front {
+	border: 0;
+    background: white;
+    -moz-box-shadow: 0px 5px 9px rgb(93 4 10 / 19%);
+    -webkit-box-shadow: 0px 5px 9px rgb(93 4 10 / 19%);
+    box-shadow: 0px 5px 9px rgb(93 4 10 / 19%);
     color: #000;
 }
 body:not(.edit) .bck-flipbox-face.back {
