@@ -2,58 +2,48 @@
 mcgraw > cornelsen */
 /* Fonts */
 @font-face {
-    font-family: 'Source Serif Pro';
-    src: url('fonts/SourceSerifPro-Light.woff') format('woff');
+    font-family: 'Book Antiqua';
+    src: url('BookAntiqua.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('Calibri-Light.woff') format('woff'),
     font-weight: 300;
     font-style: normal;
 }
-@font-face {
-    font-family: 'Source Serif Pro';
-    src: url('fonts/SourceSerifPro-LightIt.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
 
 @font-face {
-    font-family: 'Source Serif Pro';
-    src: url('fonts/SourceSerifPro-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Source Serif Pro';
-    src: url('fonts/SourceSerifPro-It.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Source Serif Pro';
-    src: url('fonts/SourceSerifPro-Bold.woff') format('woff');
+    font-family: 'Calibri';
+    src: url('Calibri-Bold.woff') format('woff'),
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Source Serif Pro';
-    src: url('fonts/SourceSerifPro-BoldIt.woff') format('woff');
+    font-family: 'Calibri';
+    src: url('Calibri-BoldItalic.woff') format('woff'),
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Noto Serif';
-    src: url('NotoSerif.woff') format('woff'),
+    font-family: 'Calibri';
+    src: url('Calibri-Italic.woff') format('woff'),
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('Calibri.woff') format('woff'),
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Noto Serif';
-    src: url('NotoSerif-Bold.woff') format('woff'),
-    font-weight: bold;
-    font-style: normal;
-}
+
 
 
 
@@ -1166,14 +1156,36 @@ body:not(.edit) .bck-tabs-box {
 	-webkit-transition: none;
 	transition: none;
 }
-.bck-tabtitles:active,
- .bck-tabtitles:focus,
-  .bck-tabtitles:hover,
-   .bck-tabtitles:visited {
-    color: #1A73E9;
+
+.coursetag_nivelk1 .bck-tabtitles:active,
+ .coursetag_nivelk1 .bck-tabtitles:focus,
+  .coursetag_nivelk1 .bck-tabtitles:hover,
+   .coursetag_nivelk1 .bck-tabtitles:visited {
+    color: #000;
     background: white;
-    border-bottom: 2px solid #1A73E9;
+    border-bottom: 2px solid var(--colorppal);
 }
+
+
+.coursetag_nivelk2 .bck-tabtitles:active,
+ .coursetag_nivelk2 .bck-tabtitles:focus,
+  .coursetag_nivelk2 .bck-tabtitles:hover,
+   .coursetag_nivelk2 .bck-tabtitles:visited {
+    color: #000;
+    background: white;
+    border-bottom: 2px solid var(--colorppal);
+}
+
+
+.coursetag_nivelk3 .bck-tabtitles:active,
+ .coursetag_nivelk3 .bck-tabtitles:focus,
+  .coursetag_nivelk3 .bck-tabtitles:hover,
+   .coursetag_nivelk3 .bck-tabtitles:visited {
+    color: #000;
+    background: white;
+    border-bottom: 2px solid var(--colorppal);
+}
+
 body:not(.edit) .bck-tabcontents .div-contents {
     background-color: #F8F8F8;
 }
@@ -1658,7 +1670,7 @@ th {
 table td.bck-td-1 {
     font-weight: bold;
     text-align: center;
-    background-color: var(--colorppal);
+    background-color: #00AEEF;
 }
 
 table td.bck-td-2 {
