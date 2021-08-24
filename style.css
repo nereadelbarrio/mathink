@@ -585,9 +585,11 @@ body.is_app .mathink-navbar.ocultar {
 
 /*Énfasis 2 */
 .bck-enfasis-2 {
-	font-family: 'Noto Serif';
+	font-family: 'Book Antiqua';
+    font-style: italic;
 }
 
+/*Énfasis 3 */
 .coursetag_nivelk1 .bck-enfasis-3 {
     background-color: var(--colorsecn);
     font-weight: normal;
@@ -833,7 +835,9 @@ body.is_app .mathink-navbar.ocultar {
     padding: 0 10px 20px 20px;
     background-color: #E5E5E5;
   }
+
 /*---*/
+
 /*Flipbox*/
 body:not(.edit) .bck-flipbox {
 		margin: 15px 0;
@@ -951,6 +955,7 @@ body:not(.edit) .back .bck-flipbox-title,
 	left: 0;
 	width: auto;
  }
+
 /*LISTA ORDENADA 1*/
 #actividad .content .cke_contents .bck-ol-1 li,
  #actividad .content .cke_contents .bck-ol-1 li,
