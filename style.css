@@ -108,6 +108,7 @@ strong {
 /* TOC */
 #indice .units ul li {
 	background: #FFF;
+	border-bottom: 5px solid var(--colorppal);
 	opacity: 1;
 	-moz-transition: opacity 0.3s ease-in-out;
 	-webkit-transition: opacity 0.3s ease-in-out;
@@ -115,9 +116,9 @@ strong {
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
-	-moz-box-shadow: 3px 5px 5px #00000036;
-	-webkit-box-shadow: 3px 5px 5px #00000036;
-	box-shadow: 3px 5px 5px #00000036;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 	margin-bottom: 11px;
 }
 
