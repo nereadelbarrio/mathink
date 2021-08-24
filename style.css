@@ -161,8 +161,29 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 }
 
 #indice .unit-content .header.default {
-	background: var(--colorppal) !important;
+	background: #fff !important;
+    border-bottom: 25px solid var(--colorppal) !important;
 }
+
+#indice .unit-content .header .title {
+	color: var(--colorppal);
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    height: 106px;
+    line-height: 34px;
+    margin: 25px 140px 20px 30px;
+    overflow: hidden;
+    z-index: 1;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
 #indice a:hover,
 #indice a:active,
 #indice a:focus {
@@ -212,6 +233,24 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
     -webkit-border-radius: 25px;
     border-radius: 25px;
 }
+
+.title-buttons {
+	top: -40px;
+}
+
+#indice .unit-content .actividades {
+	border-top: 1px solid #ffffff;
+    margin-top: 65px;
+    margin-bottom: 90px;
+}
+
+#indice .unit-content .actividades .item {
+    border-bottom: 1px solid #414141;
+    position: relative;
+    text-align: left;
+    padding: 15px 5px;
+}
+
 #book-index #indice .unit-content .actividades .item {
     padding: 12px 15px;
     background: none;
@@ -1562,13 +1601,11 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     background-color: #FFF;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
-	border-radius: 25px;
+	border-radius: 0px;
 	font-weight: 700;
-	border: 2px solid #FFF;
+	border: 2px solid var(--colorppal);
     color: #1A73E9;
-	-moz-box-shadow: 0px 3px 7px #00000036;
-	-webkit-box-shadow: 0px 3px 7px #00000036;
-	box-shadow: 0px 3px 7px #00000036;
+    box-shadow: none;
 }
 
 .btn-danger,.btn-danger[disabled] {
@@ -1690,6 +1727,7 @@ table td.bck-td-4 {
     font-weight: bold;
     text-align: center;
     background-color: #5D040A;
+    color: #fff;
 }
 
 table td.bck-td-5 {
