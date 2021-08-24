@@ -199,7 +199,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 }
 /*--*/
 
-/* MENÚ DESPLEGABLE */
+/* MENÚ DESPLEGABLE LATERAL*/
 #book-index #indice .units ul li a .title {
 	margin: 0;
 	font-size: 16px;
@@ -207,8 +207,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 }
 #book-index #indice .units ul li a:not(.delete) {
     padding: 5px 20px 5px 20px;
-    border-bottom: 2px solid var(--colorppal);
-    background-color: #e3e3e3;
+    background-color: #FFF;
 }
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
     background: var(--colorppal);
