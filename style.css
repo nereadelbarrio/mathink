@@ -134,6 +134,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 }
 body #indice .units ul li.active:hover:not(.disabled) {
 	background: var(--colorppal);
+	color: #FFF;
 }
 
 #indice .units ul li a:not(.delete) {
@@ -200,6 +201,10 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 /*--*/
 
 /* MENÚ DESPLEGABLE LATERAL*/
+#book-index #indice .units ul li {
+	background: var(--colorppal);
+}
+
 #book-index #indice .units ul li a .title {
 	margin: 0;
 	font-size: 16px;
@@ -209,7 +214,8 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     padding: 5px 20px 5px 20px;
     background-color: #FFF;
 }
-body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
+body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, 
+#book-index #indice .units ul li.active a {
     background: var(--colorppal);
 }
 #book-index #indice .units ul li a:hover .title {
