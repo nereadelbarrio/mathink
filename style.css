@@ -201,6 +201,19 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 /*--*/
 
 /* MENÚ DESPLEGABLE LATERAL*/
+#book-index #wrapper.units {
+	padding: 10px 0;
+    background-color: #fff;
+}
+
+.libro-left ul li a.book-index.active {
+	background-color: #4b4b4b;
+}
+
+#book-index .col-indice {
+	background: #ffffff;
+}
+
 #book-index #indice .units ul li {
 	background: var(--colorppal);
 }
