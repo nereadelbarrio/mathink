@@ -149,6 +149,7 @@ body #indice .units ul li.active:hover:not(.disabled) {
 	-moz-transition: margin-left 0.2s ease-in-out;
 	-webkit-transition: margin-left 0.2s ease-in-out;
 	transition: margin-left 0.2s ease-in-out;
+	font-size: 1.9rem;
 }
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title {
 	color: var(--colorppal);
@@ -161,6 +162,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a:hover .title {
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 	margin-left: 30px;
 	color: #fff;
+	font-size: 1.9rem;
 }
 
 #indice .unit-content .header.default {
@@ -200,7 +202,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 }
 
 #indice .unit-content .material {
-	border-bottom: 5px solid var(--colorppal);
+	border-bottom: none;
     padding: 15px 5px;
     margin-bottom: 30px;
 }
@@ -360,11 +362,35 @@ body {
     border-image: linear-gradient(to right, #5fcaf3, #fff) 1;
 }
 
-/*logo*/
+/*logo _ocultarlo en el superior interior_*/
 .content_type_curso_mathink.content_type_clase_mathink   .libro-left ul li .title:before { 
 	opacity: 0;
 }
 
+.navbar-content .logo-publisher {
+	display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 44px;
+    background: url(images/logo.png) 0 0 no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.libro-left ul li .title {
+    color: #fff;
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 42px;
+    margin-left: 10px;
+    max-height: 44px;
+    display: inline-block;
+}
 
 /*video*/
 .vjs-poster {
