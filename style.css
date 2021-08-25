@@ -205,6 +205,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 	border-bottom: none;
     padding: 15px 5px;
     margin-bottom: 30px;
+    border-top: none;
 }
 /*--*/
 
@@ -372,8 +373,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100px;
-    height: 44px;
+    width: 90px;
+    height: 36px;
     background: url(images/logo.png) 0 0 no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
