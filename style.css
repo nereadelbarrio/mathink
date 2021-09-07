@@ -1069,16 +1069,24 @@ body:not(.edit).coursetag_nivelk3 .bck-flipbox-face.front {
     box-shadow: 0px 5px 9px rgb(93 4 10 / 19%);
     color: #000;
 }
+
+body:not(.edit) .bck-flipbox-face.front {
+		color: #595959;
+    border: 2px solid var(--colorppal);
+    background: #FFF;
+}
+
 body:not(.edit) .bck-flipbox-face.back {
 	color: #595959;
     border: 2px solid var(--colorppal);
     background: #FFF;
 }
-body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-section {
+body:not(.edit) .front .bck-flipbox-title, 
+body:not(.edit) .front .bck-flipbox-section {
     color: #000;
 }
 body:not(.edit) .back .bck-flipbox-title,
- body:not(.edit) .back .bck-flipbox-section {
+body:not(.edit) .back .bck-flipbox-section {
     color: #000;
 }
 /*----*/
@@ -1970,3 +1978,5 @@ and (max-width : 480px) {
     width: 70%;
 }	
 }
+
+
