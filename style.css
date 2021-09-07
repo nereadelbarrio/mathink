@@ -49,6 +49,11 @@ mcgraw > cornelsen */
 
 
 /**----------------------------------COLORES COURSETAG-----------------------------------**/
+:root {
+	--colorppal: #00AEEF;
+	--colorsecn: #95DAF8;
+}
+
 .coursetag_nivelk1 {
 	--colorppal: #00AEEF;
 	--colorsecn: #95DAF8;
