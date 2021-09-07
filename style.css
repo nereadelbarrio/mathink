@@ -49,11 +49,6 @@ mcgraw > cornelsen */
 
 
 /**----------------------------------COLORES COURSETAG-----------------------------------**/
-:root {
-	--colorppal: #00AEEF;
-	--colorsecn: #95DAF8;
-}
-
 .coursetag_nivelk1 {
 	--colorppal: #00AEEF;
 	--colorsecn: #95DAF8;
@@ -69,6 +64,10 @@ mcgraw > cornelsen */
 	--colorsecn: #E7D9D4;
 }
 
+:root {
+	--colorppal: #00AEEF;
+	--colorsecn: #95DAF8;
+}
 
 .coursetag_nivelk1 #actividad .carousel-inner .item-container {
     background-image: none;
@@ -212,6 +211,14 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     margin-bottom: 30px;
     border-top: none;
 }
+
+#indice .material ul {
+    min-height: 144px;
+    text-align: left;
+    padding-bottom: 15px;
+    border-bottom: 5px solid var(--colorppal);
+}
+
 /*--*/
 
 /* MENÚ DESPLEGABLE LATERAL*/
@@ -712,17 +719,26 @@ body.is_app .mathink-navbar.ocultar {
 }
 
 /* ---- CAJAS ---*/
-.bck-box {
-    position: relative;
+
+.bck-box.bck-box-1:before {
+	display: none;
+}
+
+.bck-box.bck-box-1:after {
+	display: none;
+}
+
+.bck-box.bck-box-1 {
+	position: relative;
     max-width: 100%;
     text-align: left;
 	background: inherit;
 	padding: 20px;
 	margin: 15px 0;
+	border-radius: 15px;
+	border:1px solid #414141;
 }
-.bck-box.center {
-    text-align: inherit;
-}
+
 .texto_curso .bck-box p {
     margin: 0;
 }
