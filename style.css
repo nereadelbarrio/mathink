@@ -68,6 +68,17 @@ mcgraw > cornelsen */
 	--colorppal: #00AEEF;
 	--colorsecn: #95DAF8;
 }
+/**************-----------------------------************/
+#actividad .carousel-inner .item-container {
+    background-image: none;
+    max-width: 1080px;
+    margin: 20px auto 30px;
+    padding: 0px;
+    padding-bottom: 90px;
+    position: relative;
+    border-top: 40px solid transparent;
+    border-image: linear-gradient(to right, #5fcaf3, #fff) 1;
+}
 
 .coursetag_nivelk1 #actividad .carousel-inner .item-container {
     background-image: none;
@@ -353,14 +364,15 @@ body {
 	text-align: left;
 }
 
-/*Input Blanco*/
+/*Input Blanco
 .input_blanco .slide_main .html-book input {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	border: 1px solid #ccc;
 	background: #fff;
-}
+}*/
+
 #actividad .carousel-inner .item-container {
 	background-image: none;
     max-width: 1080px;
@@ -591,7 +603,8 @@ body.is_app .mathink-navbar.ocultar {
 .bck-title-1:before {
 	display: none;
 }
-.coursetag_nivelk1 .bck-title-1 {
+
+.bck-title-1 {
 	color: #000;
     font-size: 2.2rem;
     font-weight: bold;
@@ -605,6 +618,18 @@ body.is_app .mathink-navbar.ocultar {
 .bck-title-1:before {
 	display: none;
 }
+
+.coursetag_nivelk1 .bck-title-1 {
+	color: #000;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 3.0rem;
+    margin: 0;
+    background-color: var(--colorsecn);
+    padding: 7px 0 7px 59px;
+    margin-left: -60px;
+}
+
 .coursetag_nivelk2 .bck-title-1 {
 	color: #000;
     font-size: 2.2rem;
@@ -637,6 +662,19 @@ body.is_app .mathink-navbar.ocultar {
     line-height: 3.0rem;
     margin: 0;
 }
+
+.bck-title-3 {
+	color: #fff;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 3.0rem;
+    margin: 0;
+    background-color: var(--colorppal);
+    padding: 7px 0 7px 59px;
+    margin-left: -60px;
+    text-align: center;
+}
+
 .coursetag_nivelk1 .bck-title-3 {
 	color: #fff;
     font-size: 2.2rem;
@@ -676,6 +714,11 @@ body.is_app .mathink-navbar.ocultar {
 
 
 /*Énfasis */
+.bck-enfasis {
+    color: var(--colorppal);
+    font-weight: bold;
+}
+
 .coursetag_nivelk1 .bck-enfasis {
     color: var(--colorppal);
     font-weight: bold;
@@ -695,6 +738,14 @@ body.is_app .mathink-navbar.ocultar {
 .bck-enfasis-2 {
 	font-family: 'Book Antiqua';
     font-style: italic;
+}
+
+/*Énfasis 3 */
+.bck-enfasis-3 {
+    background-color: var(--colorsecn);
+    font-weight: normal;
+    color: #000;
+    padding: 2px 0px;
 }
 
 .coursetag_nivelk1 .bck-enfasis-3 {
@@ -821,6 +872,49 @@ body.is_app .mathink-navbar.ocultar {
 
 /*---*/
 /* Content: Dropdown box */
+.bck-dropdown {
+    width: 100%;
+	-moz-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
+	box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
+	margin: 15px 0;
+  }
+  
+ .bck-dropdown .bck-dropdown-titulo {
+    color: var(--colorppal);
+    cursor: pointer;
+    font-size: 2.0rem;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-right: 2.7rem;
+  }
+  
+  .bck-dropdown .bck-dropdown-button {
+    padding: 10px;
+    border: 0;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .bck-dropdown .bck-dropdown-icon {
+    position: absolute;
+    right: 1.1rem;
+    color:#1A73E9;
+  }
+  
+  .bck-dropdown .bck-dropdown-icon>.fa {
+    color: var(--colorppal);
+    border: none;
+    padding: 0;
+    font-size: 1.6rem;
+  }
+  
+  .bck-dropdown .bck-dropdown-content {
+    width: 100%;
+    padding: 0 10px 20px 20px;
+    background-color: #E5E5E5;
+  }
+
 .coursetag_nivelk1 .bck-dropdown {
     width: 100%;
 	-moz-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
@@ -1876,5 +1970,3 @@ and (max-width : 480px) {
     width: 70%;
 }	
 }
-
-
